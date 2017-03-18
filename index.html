@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="robots" content="noindex, nofollow"/>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="" />
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<title>LabPhone</title>
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/jquery.formstyler.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div class="header">
+				<div class="header__logo">
+					<a href="#">
+						<img src="img/logo.png" alt="logo.png" class="logo--mob">
+						<img src="img/logo-desk.png" alt="logo.png" class="logo--desk">
+					</a>
+				</div>
+
+				<div class="nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								123
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								123
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								123
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								123
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								123
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="burger">
+					<span class="burger__dot"></span>
+					<span class="burger__dot"></span>
+					<span class="burger__dot"></span>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="main">
+		<section class="main-1">
+			<div class="container">
+				<div class="main-1__body">
+					<div class="main-1__left">
+						<div class="main-1__banner">
+							<img src="img/megokartinka-mob.png" alt="" class="main-1__img--mob">
+							<img src="img/megokartinka.png" alt="" class="main-1__img--desk">
+						</div>
+						<a href="#form2" class="btn  btn--mob">
+							Вызвать мастера
+						</a>
+					</div>
+					<div class="main-1__right">
+						<h1 class="main-1__title">
+							Выездной ремонт
+						</h1>
+						<p class="main-1__p">
+							вашего iPhone и iPad
+						</p>
+						<form action="http://beta.tradebook.in/order/20" method="post" id="form1">
+							<input name="utm_source" type="hidden" value="<?= (!empty($_GET['utm_source']) ? $_GET['utm_source'] : '') ?>" />
+              <input name="utm_medium" type="hidden" value="<?= (!empty($_GET['utm_medium']) ? $_GET['utm_medium'] : '') ?>" />
+              <input name="utm_campaign" type="hidden" value="<?= (!empty($_GET['utm_campaign']) ? $_GET['utm_campaign'] : '') ?>" />
+              <input name="utm_term" type="hidden" value="<?= (!empty($_GET['utm_term']) ? $_GET['utm_term'] : '') ?>" />
+              <input name="utm_content" type="hidden" value="<?= (!empty($_GET['utm_content']) ? $_GET['utm_content'] : '') ?>" />
+							<input type="text" placeholder="Имя" class="main-1__input" name="name[]" id="uname">
+							<input type="tel" placeholder="Контактный телефон" class="main-1__input  reg-phone" name="contacts[phone]" id="tel" >
+							<button class="btn" type="submit">Вызвать мастера</button>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<section class="main-2">
+			<div class="container" id="app">
+				<iphones v-bind:phones="phones"  ></iphones>
+			</div>
+		</section>
+		<section class="scheme">
+			<div class="container">
+				<p class="title  title--w">
+					как мы работаем
+				</p>
+
+				<div class="scheme__body">
+					<div class="scheme__item">
+						<p class="scheme__icon">
+							<img src="img/sc1.png" alt="">
+						</p>
+						<p class="scheme__text">
+							Вы назначаете встречу в вашем офисе, в кафе, дома...
+						</p>
+					</div>
+					<div class="scheme__item">
+						<p class="scheme__icon">
+							<img src="img/sh2.png" alt="">
+						</p>
+						<p class="scheme__text">
+							Выездной мастер приедет в удобное для вас время
+						</p>
+					</div>
+					<div class="scheme__item">
+						<p class="scheme__icon">
+							<img src="img/sh3.png" alt="">
+						</p>
+						<p class="scheme__text">
+							Произведет замену детали за 20 минут
+						</p>
+					</div>
+					<div class="scheme__item">
+						<p class="scheme__icon">
+							<img src="img/sh4.png" alt="">
+						</p>
+						<p class="scheme__text">
+							Примет оплату, выдаст чек и гарантию на 1 месяц
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<section class="service">
+			<div class="container">
+				<p class="title  title--w">
+					Сервис высокого класса
+				</p>
+				<ul class="service__list">
+					<li class="service__item">
+						<span class="service__icon">
+							<img src="img/img1.png" alt="">
+						</span>
+						<span class="service__text">
+							Бесплатный выезд  в пределах Москвы
+						</span>
+					</li>
+					<li class="service__item">
+						<span class="service__icon">
+							<img src="img/img2.png" alt="">
+						</span>
+						<span class="service__text">
+							Используем только новые запчасти
+						</span>
+					</li>
+					<li class="service__item">
+						<span class="service__icon">
+							<img src="img/img3.png" alt="">
+						</span>
+						<span class="service__text">
+							Гарантия на запчасть 3 месяца
+						</span>
+					</li>
+					<li class="service__item">
+						<span class="service__icon">
+							<img src="img/img4.png" alt="">
+						</span>
+						<span class="service__text">
+							Оплата банковской картой на месте, без %
+						</span>
+					</li>
+					<li class="service__item">
+						<span class="service__icon">
+							<img src="img/img5.png" alt="">
+						</span>
+						<span class="service__text">
+							Собственный сервисный центр
+						</span>
+					</li>
+					<li class="service__item">
+						<span class="service__icon">
+							<img src="img/img6.png" alt="">
+						</span>
+						<span class="service__text">
+							Профессиональное оборудование
+						</span>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="reviews">
+			<div class="container">
+				<p class="title  ">
+					Отзывы
+				</p>
+
+				<div class="reviews__slider">
+					<div class="reviews__slide">
+						<div class="reviews__photo">
+							<img src="img/people/review-1.png" alt="">
+						</div>
+						<div class="reviews__text">
+							Реально порадовало, что вы, ребята, работаете без выходных. Думала, босс меня убьёт за то, что я сделала с рабочим мобильником! Но в итоге всё починили уже в воскресенье, начальник так ничего и не заметил ;)
+							<h4>Марго</h4>
+						</div>
+					</div>
+
+					<div class="reviews__slide">
+						<div class="reviews__photo">
+							<img src="img/people/review-2.png" alt="">
+						</div>
+						<div class="reviews__text">
+							Не так просто сейчас найти фирму, занимающуюся заменой именно оригинальных частей, в которой уверен, что тебе не вставят в телефон какую-нибудь подвальную подделку.
+							<h4>Егор</h4>
+						</div>
+					</div>
+					<div class="reviews__slide">
+						<div class="reviews__photo">
+							<img src="img/people/review-3.png" alt="">
+						</div>
+						<div class="reviews__text">
+							Обычно за срочность в любой мастерской сдерут гораздо больше, а у этих ребят всё адекватно, да ещё и с выездом мастера — супер!
+							<h4>Иван</h4>
+						</div>
+					</div>
+					<div class="reviews__slide">
+						<div class="reviews__photo">
+							<img src="img/people/review-4.png" alt="">
+						</div>
+						<div class="reviews__text">
+							Ремонт всех офисных телефонов теперь заказываю только в LabPhone. Приезжают сразу, исправляют быстро, от работы никого отрывать не приходится. Мастера профессиональные, цены разумные — рекомендую всем.
+							<h4>София</h4>
+						</div>
+					</div>
+					<div class="reviews__slide">
+						<div class="reviews__photo">
+							<img src="img/people/review-5.png" alt="">
+						</div>
+						<div class="reviews__text">
+							У меня с телефонами вообще беда, они у меня долго не живут :D Но ребята из LabPhone умницы, уже третий раз меня выручаете! Спасибо!
+							<h4>Оксана</h4>
+						</div>
+					</div>
+					<div class="reviews__slide">
+						<div class="reviews__photo">
+							<img src="img/people/review-6.png" alt="">
+						</div>
+						<div class="reviews__text">
+							Телефон перестал держать батарею, два раза менял аккумулятор. А надо было сразу обращаться к профессионалам, дело вообще не в батарее было, как оказалось.
+							<h4>Гурген</h4>
+						</div>
+					</div>
+					<div class="reviews__slide">
+						<div class="reviews__photo">
+							<img src="img/people/review-8.png" alt="">
+						</div>
+						<div class="reviews__text">
+							Приятно удивило, что ориентировочную и финальную цену говорят сразу, не пытаются лапшу на уши вешать — это вызывает уважение.
+							<h4>Александр</h4>
+						</div>
+					</div>
+					<div class="reviews__slide  last">
+						<div class="reviews__photo">
+							<img src="img/people/review-7.png" alt="">
+						</div>
+						<div class="reviews__text">
+							С маленькими детьми за телефоном не уследишь, а бегать по ремонтным у меня времени тоже нет. Очень довольна сервисом: дядечка сам приезжает, всё чинит, и недорого.
+							<h4>Людмила</h4>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<div class="container">
+			<p class="title  title--w">
+				Контакты
+			</p>
+			<div class="footer">
+				<div class="footer__left">
+					<form action="http://beta.tradebook.in/order/20" method="post" id="form2" class="footer__form">
+							<input name="utm_source" type="hidden" value="<?= (!empty($_GET['utm_source']) ? $_GET['utm_source'] : '') ?>" />
+              <input name="utm_medium" type="hidden" value="<?= (!empty($_GET['utm_medium']) ? $_GET['utm_medium'] : '') ?>" />
+              <input name="utm_campaign" type="hidden" value="<?= (!empty($_GET['utm_campaign']) ? $_GET['utm_campaign'] : '') ?>" />
+              <input name="utm_term" type="hidden" value="<?= (!empty($_GET['utm_term']) ? $_GET['utm_term'] : '') ?>" />
+              <input name="utm_content" type="hidden" value="<?= (!empty($_GET['utm_content']) ? $_GET['utm_content'] : '') ?>" />
+							<input type="text" placeholder="Имя" class="main-1__input" name="name[]">
+							<input type="tel" placeholder="Контактный телефон" class="main-1__input  reg-phone" name="contacts[phone]">
+							<button class="btn" type="submit">Вызвать мастера</button>
+						</form>
+				</div>
+				<div class="footer__right">
+					<div class="footer__col">
+						<div class="footer__item  footer__item--light">
+							<p class="footer__icon">
+								<img src="img/adress.png" alt="">
+							</p>
+							<div class="footer__text">
+								<p>г.Москва улица Барклая, 8</p>
+								<p>ТЦ "Горбушка",</p>
+								<p>павильон 167 и 113/5.</p>
+								<p>Сервисный центр "Элемент сервис".</p>
+							</div>
+						</div>
+						<div class="footer__item footer__item--light">
+							<p class="footer__icon">
+								<img src="img/mail.png" alt="">
+							</p>
+							<p class="footer__text">
+								sale@labphone.ru
+							</p>
+						</div>
+					</div>
+					<div class="footer__col ">
+						<div class="footer__item  footer__item--contact">
+							<p class="footer__icon  footer__icon--contact">
+								<img src="img/phone.png" alt="">
+							</p>
+							<div class="footer__text">
+								<a href="tel: 8 (495) 762-38-57"> 8 (495) 762-38-57</a>
+								<a href="tel: 8 (985) 762-38-57">8 (985) 762-38-57</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<img src="img/logo.png" alt="">
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<!-- <script src="js/jquery.modal.min.js"></script> -->
+	<script src="js/jquery.validate.min.js"></script>
+ <script src="js/jquery.formstyler.min.js"></script>
+	<script src="js/additional-methods.js"></script>
+	<script type="text/javascript" src="js/vue.min.js"></script>
+	<script type="text/javascript" src="js/iphones.component.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

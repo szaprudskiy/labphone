@@ -1,0 +1,307 @@
+/* ==================================960========================== */
+@media screen and (max-width: 1170px) {
+  .container {
+    max-width: 940px; }
+  /* ==========main-1============ */
+  .main-1 {
+    background-position: 68% 2%;
+    background-size: 74%; }
+    .main-1__body {
+      margin-top: 0;
+      padding-top: 25px;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+    .main-1__img--mob {
+      display: none;
+      position: absolute;
+      left: -206px; }
+    .main-1__img--desk {
+      display: inline; }
+    .main-1__left {
+      width: auto;
+      padding-left: 0; }
+    .main-1__right {
+      margin-bottom: 30px; }
+  /* ==========main-2============ */
+  .main-2__list {
+    margin: 0 30px; }
+  /* ==========service============ */
+  .service {
+    background-size: 60%; }
+    .service__list {
+      margin: 0 60px; }
+    .service__item {
+      width: 220px; }
+  /* ==========reviews============ */
+  .reviews__text {
+    margin-bottom: 50px;
+    width: 460px;
+    margin-left: -136px; }
+  /* ==========FOOTER============ */
+  .footer {
+    margin: 0 80px;
+    margin-top: 65px;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch; }
+    .footer__right {
+      padding-left: 90px;
+      margin-right: 0px; } }
+
+/* ==================================744========================== */
+@media screen and (max-width: 959px) {
+  .container {
+    max-width: 743px; }
+  /* ==========HEADER============ */
+  .header {
+    padding-left: 60px; }
+  /* ==========main-1============ */
+  .main-1 {
+    background-position: 72% 32%;
+    background-size: 67%; }
+    .main-1__body {
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      padding-left: 60px;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .main-1__img--mob {
+      display: inline;
+      position: absolute;
+      left: -206px; }
+    .main-1__img--desk {
+      display: none; }
+    .main-1__banner {
+      position: relative;
+      height: 450px;
+      margin: 0 auto;
+      width: 200px; }
+    .main-1__right {
+      width: 290px;
+      margin-left: 120px; }
+  /* ==========main-2============ */
+  .main-2__list {
+    margin: 0; }
+  .main-2__item {
+    width: 320px; }
+  /* ==========service============ */
+  .service {
+    background-size: 80%; }
+    .service__list {
+      margin: 0; }
+  /* ==========reviews============ */
+  .reviews .slick-slide__photo {
+    width: 168px;
+    height: 168px; }
+  .reviews__text {
+    margin-left: -110px;
+    margin-bottom: 35px; }
+  /* ==========scheme============ */
+  .scheme__item:not(:last-child):before {
+    width: 100px;
+    right: -73px; }
+  /* ==========FOOTER============ */
+  .footer {
+    margin: 0;
+    margin-top: 65px; }
+    .footer__left {
+      padding-right: 92px; }
+  /* ==============Thank================== */
+  .thank .btn {
+    margin: 0 auto;
+    margin-top: 0px;
+    max-width: 300px;
+    font-size: 14px; }
+  .thank__text {
+    font-size: 20px;
+    padding: 0 10px;
+    bottom: 180px; }
+    .thank__text span {
+      font-size: 18px;
+      display: block; } }
+
+/* =================body================= */
+/* ==mob== */
+/* ======================btn================= */
+/* ==mob== */
+/* =================title================= */
+/* ==mob== */
+/* =================input================== */
+/* ===================================320=============================== */
+@media screen and (max-width: 743px) {
+  .container {
+    max-width: 460px;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  html, body {
+    font-size: 16px; }
+  p {
+    line-height: 1.286; }
+  .btn {
+    padding: 12px 0;
+    font-size: 18px; }
+  .title {
+    font-size: 18px; }
+  /* ==========HEADER============ */
+  .header {
+    padding-top: 17px;
+    padding-left: 0;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .nav {
+    display: none; }
+  .logo--desk {
+    display: none; }
+  .logo--mob {
+    display: inline; }
+  /* ==========main-1============ */
+  .main-1 {
+    padding-bottom: 20px;
+    background-image: none; }
+    .main-1__banner {
+      position: relative;
+      height: 400px;
+      margin: 0 auto;
+      width: 200px;
+      padding-top: 30px;
+      padding-bottom: 20px; }
+    .main-1__body {
+      padding: 0; }
+    .main-1__left {
+      margin: 0 auto; }
+    .main-1 .btn--mob {
+      display: block; }
+    .main-1__img--mob {
+      display: inline;
+      position: absolute;
+      left: -206px; }
+    .main-1__img--desk {
+      display: none; }
+    .main-1__right {
+      display: none; }
+  /* ==========main-2============ */
+  .main-2 {
+    padding-bottom: 30px; }
+    .main-2__list {
+      margin: 0 -20px; }
+    .main-2__item {
+      width: 100%; }
+      .main-2__item p {
+        padding-right: 10px; }
+    .main-2__help {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px; }
+      .main-2__help span {
+        font-family: "RobotoBlack"; }
+  /* ==========service============ */
+  .service {
+    padding: 25px 0  40px;
+    background-image: none;
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3; }
+    .service .title {
+      margin-bottom: 10px; }
+    .service__item {
+      display: -webkit-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 100%;
+      padding: 18px 0;
+      margin-bottom: 0;
+      padding-right: 20px; }
+    .service__text {
+      text-align: left; }
+    .service__icon {
+      width: 60px;
+      padding-right: 10px;
+      height: auto; }
+    .service__text {
+      width: 77%; }
+  /* ==========reviews============ */
+  .reviews {
+    margin: 40px 0;
+    -webkit-box-ordinal-group: 5;
+    -webkit-order: 4;
+        -ms-flex-order: 4;
+            order: 4; }
+    .reviews__text {
+      width: 100%;
+      margin: 35px 0 30px; }
+    .reviews .title {
+      margin-bottom: 40px; }
+    .reviews .slick-slide {
+      -webkit-transform: none;
+          -ms-transform: none;
+              transform: none;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      opacity: 1; }
+      .reviews .slick-slide .reviews__text {
+        font-size: 16px; }
+      .reviews .slick-slide img {
+        width: 100%; }
+  .slick-list {
+    padding-top: 0 !important; }
+  .slick-slide .reviews__photo {
+    width: 200px;
+    -webkit-border-radius: 300px;
+            border-radius: 300px;
+    height: 200px; }
+  .slick-arrow {
+    top: 30%; }
+  /* ==========scheme============ */
+  .scheme {
+    display: none; }
+  /* ==========FOOTER============ */
+  footer .title {
+    margin: 0; }
+  .footer {
+    padding-top: 30px;
+    display: block;
+    margin-top: 0; }
+    .footer__left {
+      padding: 0;
+      padding-bottom: 40px;
+      border-bottom: 1px solid #4b4b4b;
+      border-right: none; }
+    .footer__form {
+      margin: 0 auto;
+      width: 100%; }
+      .footer__form input {
+        width: 100%; }
+      .footer__form .name {
+        display: none; }
+    .footer__right {
+      margin: 0 auto;
+      margin-top: 40px;
+      padding-left: 0; }
+    .footer__bottom {
+      padding: 28px 0 7px; }
+    .footer__item--contact .footer__text p {
+      padding: 5px 0; }
+  /* ==============Thank================== */
+  .thank__text {
+    bottom: 150px; } }
